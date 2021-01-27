@@ -1,0 +1,22 @@
+
+
+
+<textarea id="textarea" name="ta" onkeydown="clean('textarea')" onkeyup="clean('textarea')">
+sdfsdfsdf
+	
+</textarea>
+
+<input type="text" name="text" id = 'name' onkeydown="clean('name')" onkeyup="clean('name')">
+
+
+<script type="text/javascript">
+	function clean(e){
+		var textfield = document.getElementById(e);
+
+		var regex = /[^a-z 0-9?!.,]/gi;
+
+		textfield.value = textfield.value.replace(regex, "");
+
+	}
+
+</script>

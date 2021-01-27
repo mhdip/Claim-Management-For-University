@@ -1,0 +1,38 @@
+#zartan_login_error_message {
+	background: white;
+	color:red;
+	min-height: 30px;
+	
+	margin: 5px auto;
+	padding: 5px;
+	border: 2px solid red;
+	border-radius: 3px;
+
+}
+
+#zartan_error_message {
+        background: white;
+        color:red;
+        min-height: 30px;
+       
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid ;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+ #zartan_success_message {
+ 		background: white;
+        color:green;
+        min-height: 30px;
+       
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid green;
+        border-radius: 5px;
+        text-align: center;
+ }
+
+ 
+

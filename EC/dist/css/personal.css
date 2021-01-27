@@ -1,0 +1,12 @@
+#zartan_login_error_message {
+	background: white;
+	color:red;
+	min-height: 30px;
+	width: 230px;
+	margin: 5px auto;
+	padding: 5px;
+	border: 1px solid red;
+	border-radius: 5px;
+
+}
+
